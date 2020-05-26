@@ -206,7 +206,7 @@ __attribute__((section(".boot"))) int main(void) {
         #ifdef TARGET_NANOX
         G_io_app.plane_mode = os_setting_get(OS_SETTING_PLANEMODE, NULL, 0);
         BLE_power(0, NULL);
-        BLE_power(1, "Nano X - Monero");
+        BLE_power(1, "Nano X - Bittube");
         #endif
 
         monero_init();
